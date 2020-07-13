@@ -1,0 +1,157 @@
+/*
+Theme Name: Personalizado
+Author: Ana Vielma 
+Author URI: https://www.linkedin.com/in/ana-vielma-rojas/
+Description: Theme para prueba solicitada
+Version: 1.0
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.DetallePlat {
+    font-size: 13px;
+    color: #A2A9B0;
+    list-style: none;
+    padding: 0;
+}
+
+.IconList {
+    padding: 0;
+}
+
+.Platillos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.Platillo {
+    width: 14vw;
+    padding-right: 10px
+}
+
+.DetallePlat>li {
+    display: inline-block;
+    margin: auto;
+    padding: 0 20px 6px 0;
+}
+
+i {
+    padding: 0 10px 0 0;
+}
+
+.imag {
+    border-radius: 10px;
+    height: 135px;
+    background-size: cover;
+}
+
+.imag1 {
+    background-image: url(Assets/Imagen%201@2x.png);
+}
+
+.imag2 {
+    background-image: url(Assets/Imagen%202@2x.png);
+}
+
+.imag3 {
+    background-image: url(Assets/Imagen%203@2x.png);
+}
+
+.imag4 {
+    background-image: url(Assets/Imagen%204@2x.png);
+}
+
+.imag5 {
+    background-image: url(Assets/Imagen%205@2x.png);
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 1.1em 0 0 1.1em;
+    width: 60%;
+    color: #4AB421;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 1.2em 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+header {
+    background-image: url(Assets/Circulos.png), url(Assets/Imagen%2011%20-%20Head.png);
+    /**/
+    background-position: 88% center, center;
+    /**/
+    background-size: 45%, cover;
+    background-repeat: no-repeat, no-repeat;
+    margin: auto;
+    padding: 0;
+    width: 75%;
+    border-radius: 2em;
+    margin-top: 85px;
+    height: 280px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+#linkheader {
+    display: inline-block;
+    border: 2px solid #419A1F;
+    border-radius: 2em;
+    margin: 1em 2.3em;
+    padding: 0.9em;
+    font-size: 19px;
+    color: #4AB421;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#linkheader>span {
+    border: 1px solid #419A1F;
+    padding: 4px 6px;
+    margin-left: 7px;
+    letter-spacing: 0.84px;
+}
+
+@media all and (max-width: 1000px)and (min-width: 701px) {
+    h1 {
+        font-size: 3.8vw;
+    }
+    .Platillo {
+        width: 20vw;
+    }
+}
+
+@media all and (max-width: 700px)and (min-width: 10px) {
+    h1 {
+        font-size: 5vw;
+    }
+    .Platillo {
+        width: 30vw;
+    }
+}
